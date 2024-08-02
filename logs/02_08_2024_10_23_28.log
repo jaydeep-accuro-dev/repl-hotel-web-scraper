@@ -1,0 +1,42 @@
+[2024-08-02 10:23:28,666] Auburn_Alabama_United_States - INFO - scraper is running for Auburn, Alabama, United States : ['02/08/2024']
+[2024-08-02 10:23:28,667] date_pairs - INFO - succeed to create date pairs (('02/08/2024', '03/08/2024'),)
+[2024-08-02 10:23:45,802] driver - INFO - succeed to load driver
+[2024-08-02 10:23:46,495] hotels_page - INFO - succeed to enter destination
+[2024-08-02 10:23:47,856] hotels_page - INFO - succeed to enter dates
+[2024-08-02 10:23:48,047] hotels_page - INFO - succeed to search hotels
+[2024-08-02 10:23:56,937] hotels_count - INFO - succeed to calculate total hotels 7
+[2024-08-02 10:24:06,843] hotels_count - INFO - succeed to calculate available hotels 5
+[2024-08-02 10:24:06,859] hotels_detail - INFO - Scrolled to top of the hotels page
+[2024-08-02 10:24:08,871] hotels_detail - INFO - Loaded hotel cards, total cards found: 5
+[2024-08-02 10:24:08,871] hotels_detail - INFO - Selected hotel card at index: 0
+[2024-08-02 10:24:09,970] hotels_detail - ERROR - failed to scrape hotel data
+[2024-08-02 10:24:09,970] hotels_detail - ERROR - error occurred in python script name [/home/runner/hotel-web-scraper/src/scraper/hotels_detail.py] line number [111] error message [Message: element click intercepted: Element <button _ngcontent-ng-c3471399754="" data-slnm-ihg="selectHotelSID_AUOAU">...</button> is not clickable at point (683, 456). Other element would receive the click: <button id="truste-consent-required" type="button" class="truste-button">...</button>
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+#0 0x5d757cfd64e3 <unknown>
+#1 0x5d757cd05c76 <unknown>
+#2 0x5d757cd479d4 <unknown>
+#3 0x5d757cd45cbd <unknown>
+#4 0x5d757cd43d2e <unknown>
+#5 0x5d757cd4310f <unknown>
+#6 0x5d757cd381da <unknown>
+#7 0x5d757cd61012 <unknown>
+#8 0x5d757cd37b03 <unknown>
+#9 0x5d757cd611de <unknown>
+#10 0x5d757cd7930e <unknown>
+#11 0x5d757cd60de3 <unknown>
+#12 0x5d757cd362dd <unknown>
+#13 0x5d757cd3734e <unknown>
+#14 0x5d757cf963e4 <unknown>
+#15 0x5d757cf9a3d7 <unknown>
+#16 0x5d757cfa4b20 <unknown>
+#17 0x5d757cf9b023 <unknown>
+#18 0x5d757cf691aa <unknown>
+#19 0x5d757cfbf6b8 <unknown>
+#20 0x5d757cfbf847 <unknown>
+#21 0x5d757cfcf243 <unknown>
+#22 0x7cd56d68ae24 start_thread
+]
+[2024-08-02 10:24:09,970] hotels_detail - INFO - Scraping completed, total hotels data collected: 0
+[2024-08-02 10:24:10,238] main - INFO - succeed to quit driver
+[2024-08-02 10:24:10,239] Auburn_Alabama_United_States - INFO - scraper finished for Auburn, Alabama, United States
